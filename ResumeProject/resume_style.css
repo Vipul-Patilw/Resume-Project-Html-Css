@@ -369,8 +369,8 @@ background: #0bb5f4;
 display: none;
 }
 #idLinkedInIcon{
-background-color:#00a0dc;
-border-radius:6px;
+background-color:#007bb;
+border-radius:50%;
 color:white;
 cursor:pointer;
 display:inline-block;
@@ -380,4 +380,56 @@ text-align:center;
 width:30px;
 padding-left: 7px;
 padding-right: 30px;
+}
+/* Resume Profile Picture */
+.resume .resume_left .resume_profile img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+/* Resume Icons */
+.resume .resume_left .resume_content ul li .icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #007bb3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+/* Resume Contact Icons */
+.resume .resume_left .resume_content ul li .icon i {
+  color: #fff;
+}
+
+
+/* Resume Contact Links - Hover */
+.resume .resume_left .resume_content ul li .data a:hover {
+  color: #007bb3;
+}
+
+/* Resume Skills */
+.resume .resume_right .resume_item.resume_skills ul li .skill_name {
+  background-color: #f7f7f7;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+
+
+/* Resume Hobby - Hover */
+.resume .resume_right .resume_hobby ul li:hover {
+  color: green;
+  border: 2px solid green;
+}
+
+/* Resume Hobby Icon - Hover */
+.resume .resume_right .resume_hobby ul li:hover i {
+  color: green;
 }
