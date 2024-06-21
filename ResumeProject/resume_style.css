@@ -560,5 +560,37 @@
   margin-bottom: 5px; /* Space between logo and text */
   }
   
+  .resume_languages ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .resume_languages li {
+    margin-bottom: 15px;
+  }
+  
+  .language {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .progress {
+    background-color: #f3f3f3;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 12px; /* Ensure this height is consistent */
+    width: 100%; /* Ensure the progress bar container spans the full width */
+    
+    margin-left: 10px;
+    position: relative;
+    top: -2px;
+  }
+  
+  .progress-bar {
+    height: 100%; /* Use 100% height to fill the container */
+    border-radius: 20px;
+    background-color: #53bbe2;
+    ;
+  }
   
   
